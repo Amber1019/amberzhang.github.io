@@ -43,9 +43,64 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+@media (width: 475px) {
+  section.resume-section {
+    min-height: 100vh;
+    background-image: url(images/IMG_4472.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position:center 15%;
+    background-attachment: scroll;
+  }
+  .resume-section-text {
+    padding-top: 60%;
+  }
+    
+}
+
+@media (width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    background-image: url(images/IMG_4472.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position:80% 62%;
+    background-attachment: scroll;
+  }
+    
+}
+@media (min-width: 475px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  .resume-section-text {
+    /* padding-top: 40%; */
+    font-size: 2.3em;
+  }
+  p.lead {
+    font-size: 10px;
+    font-weight: 350;
+  }
+  .subheading {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+  .resume-section-text {
+    font-size: 4.5rem;
+  }
+  p.lead {
+    font-size: 1.5rem;
+    font-weight: 350;
+  }
+  .subheading {
+    font-weight: 500;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 992px) {
@@ -55,7 +110,32 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  .resume-section-text {
+    font-size: 5rem;
+  }
 }
+
+@media (min-width: 1368px) {
+  p.lead {
+    font-size: 1.5rem;
+    font-weight: 450;
+  }
+  .subheading {
+    font-weight: 550;
+    font-size: 1.75rem;
+  }
+  .social-icons .social-icon {
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    margin-right: 2.5rem;
+  }
+  .resume-section-text {
+    font-size: 5rem;
+  }
+}  
+  
+
 
 /* page */
 @media (min-width: 992px) {
@@ -64,19 +144,15 @@ section.resume-section .resume-section-content {
     padding-left: 17rem;
   } 
 }
-
-
-/* navbar*/
-
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  text-align: right;
-  padding-right: 45px;
+@media (min-width: 1368px) {
+  body {
+    padding-top: 0;
+    padding-left: 20rem;
+  } 
 }
 
 
+/* navbar*/
 
 @media (min-width: 992px) {
   #sideNav {
@@ -88,7 +164,7 @@ section.resume-section .resume-section-content {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 16rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -112,7 +188,52 @@ section.resume-section .resume-section-content {
     flex-direction: column;
     width: 100%;
   }
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 45px;
+  }
 }
+
+@media (min-width: 1368px) {
+  #sideNav {
+    width: 20rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 27rem;
+  }
+  .navbar-nav {
+    font-size: 20px;
+  }
+}
+
+
+/* <!-- <portfolio> --> */
+.portfolio, h1{
+  color: #3a1d1a;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body div {
+  margin-bottom: 50px;
+}
+.linkBtn {
+  position: absolute;
+  right: 22%;
+  bottom: 10px;
+}
+
+.card-text {
+  text-align: left;
+  font-size: 18px;
+}
+
 
 
 /* <!-- <Travel> --> */
@@ -156,6 +277,35 @@ section.resume-section .resume-section-content {
 .batton{ 
   bottom: 0;
 }
+/* 
+@media (max-width: 992px) {
+  .singl-teams{
+    height: 10px;
+    width: 170px;
+  }
+
+  .travel-content .travel-div {
+    max-width:150px;
+    border: 3px solid #495057;
+    padding: 1.2rem;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    background:  #f3e4db;
+  }
+  .travel-content p {
+    font-size: 11px;
+  }
+  .travel-area{
+    left: 30px;
+  }
+
+
+
+} */
+
 
 
  /* <!-- <Eduation> --> */
@@ -309,28 +459,7 @@ blockquote::after {
 
 
 
-/* <!-- <portfolio> --> */
-.portfolio, h1{
-  color: #3a1d1a;
-}
 
-.card-body {
-  position: relative;
-}
-
-.card-body div {
-  margin-bottom: 50px;
-}
-.linkBtn {
-  position: absolute;
-  right: 22%;
-  bottom: 10px;
-}
-
-.card-text {
-  text-align: left;
-  font-size: 18px;
-}
 
 
 

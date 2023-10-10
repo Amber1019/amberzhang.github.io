@@ -20,12 +20,12 @@
     <body id="page-top">
         <!-- Navigation-->
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-3" id="sideNav">
             <a class="navbar-brand " href="#page-top">
-                <span class="d-block d-lg-none px-3">Amber Zhang</span>
+                <span class="d-block d-lg-none ">Amber Zhang</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile mb-5 rounded-3" src="images/IMG_4472.jpg" alt="..." /></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ">
                     <li class="nav-item"><a class="nav-link" href="#about">
@@ -50,12 +50,15 @@
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0">
 
 <!-- About-->
-            <section class="resume-section px-5 bg-light" id="about">
+        <div class="container-fluid p-0 bg-light">
+            <section class="resume-section px-5 " id="about">
+                <div class="resume-section-photo">
+                    <!-- <img src="images/IMG_4472.jpg" class="photo " alt=""> -->
+                </div>
                 <div class="resume-section-content">
-                    <h1 class="mb-0 display-2 fw-bold">
+                    <h1 class="resume-section-text mb-0  fw-bold">
                         Amber
                         <span class="text-success fw-bold">Zhang</span>
                     </h1>
@@ -76,13 +79,13 @@
 
 <!-- <project> -->
     <section class="portfolio pb-5 px-5 bg-light" id="project">
-        <div class="container mb-3 text-center">
+        <div class="container-fluid mb-3 text-center">
             <h1 class="display-5 fw-bold pt-5">project</h1>
             <!-- <hr class="underLine"> -->
         </div>
-        <div class="work mb-4 col-12 ">
-            <div class="d-flex justify-content-around">
-                <div class="card" style="width: 18rem;">
+        <div class="work mb-4 row g-4">
+            <div class="d-flex justify-content-around col">
+                <div class=" card " style="width: 18rem;">
                     <a href="https://github.com/Amber1019/-10173102.git" target="_blank" >
                         <img src="images/IMG_27CA545A934E-1.jpeg" class="card-img-top"  alt="...">
                     </a>
@@ -94,10 +97,12 @@
                                 使用的套件:bootstrap
                             </p>
                         </div>
-                        <a href="https://github.com/Amber1019/-10173102.git" target="_blank" class="linkBtn btn btn-outline-success px-5 hvr-shutter-out-vertical mb-2">GitHub</a>
+                        <a href="https://github.com/Amber1019/-10173102.git" target="_blank" class="linkBtn btn btn-outline-success px-5 hvr-shutter-out-vertical pb-2">GitHub</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+            </div>
+            <div class="d-flex justify-content-around col">
+                <div class="card "  style="width: 18rem;">
                     <a href="https://github.com/Amber1019/-10173102.git" target="_blank" >
                         <img src="images/IMG_27CA545A934E-1.jpeg" class="card-img-top"  alt="...">
                     </a>
@@ -110,14 +115,18 @@
                         <a href="https://github.com/Amber1019/-10173102.git" target="_blank" class="linkBtn btn btn-success px-5 hvr-shutter-out-vertical pb-2">GitHub</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+            </div>
+            <div class="d-flex justify-content-around col">
+                 <div class="card " style="width: 18rem;">
                     <a href="https://github.com/Amber1019/-10173102.git" target="_blank" >
                         <img src="images/IMG_27CA545A934E-1.jpeg" class="card-img-top"  alt="...">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">製作中</h5>
-                        <p class="card-text">製作中</p>
-                        <a href="https://github.com/autum55853/VueDotted" class="linkBtn btn btn-outline-success px-5 hvr-shutter-out-vertica">GitHub</a>
+                    <div class="card-body ">
+                        <div>
+                            <h5 class="card-title fw-bold">製作中</h5>
+                            <p class="card-text">製作中</p>
+                            <a href="https://github.com/autum55853/VueDotted" class="linkBtn btn btn-outline-success px-5 hvr-shutter-out-vertica pb-2">GitHub</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,7 +137,7 @@
 
 <!-- <Eduation> --> 
             <section class="Eduation aboutbg px-5 bg-light" id="education">
-                <div class="container text-center">
+                <div class="container-fluid text-center">
                     <h1 class="display-5 fw-bold pt-5">Educatione</h1>
                     <p class="text-center">Here's my life</p>
                     <div class="row">
@@ -192,7 +201,7 @@
             <hr class="m-0" />
 <!-- <interests> --> 
             <section class="interests px-5 pb-5 bg-light" id="interests">
-                <div class="container text-center">
+                <div class="container-fluid text-center">
                  <h1 class="display-5 fw-bold pt-5">interests</h1>
                   <div class="row text-center">
                     <div class="rounded-3 col-md card-img m-2 p-3 d-flex justify-content-center align-items-center">
@@ -229,16 +238,16 @@
 
 
  <!-- <Travel> --> 
-    <section class="travel-area px-5 pb-5 bg-light" id="travelexperience">
-        <div class="container">
+    <section class="travel-area px-5  bg-light" id="travelexperience">
+        <div class="container-fluid">
             <div class="row">
                 <div class="section-title text-center">
-                    <h1 class="display-5 fw-bold pt-5">Travel Experience</h1>
+                    <h1 class="display-5 fw-bold pt-5 ">Travel Experience</h1>
                     <p class="text-center">Here's my summer vocation</p>
                 </div>
             </div>
             <div class="row gx-5 team-row ">
-                <div class="col-md-6 col-lg-3 ">
+                <div class="col-sm-6 col-md-6 col-lg-3 pb-5 ">
                     <div class="singl-teams rounded-3 h-100">
                         <div>
                             <img class="team-img w-100 h-100 rounded-3" src="images/IMG_3517.jpg" alt="image">
@@ -247,14 +256,14 @@
                             <div class="travel-div w-100 rounded-3">
                                 <p class="text-center text-dark fw-bold">小琉球之旅</p>
                             </div>
-                            <p class="text-center">三天兩夜，下雨下了兩天半。</p>
+                            <p class="text-center">三天兩夜，下雨下了兩天半，但依然是快樂旅行。</p>
                             <div class="batton text-center">
                                 <a href="#" class="btn btn-outline-secondary">Little Ryukyu</a>
                             </div>
                         </div>
                     </div>
                 </div>        
-                <div class="col-md-6 col-lg-3">
+                <div class="col-sm-6 col-md-6 col-lg-3 pb-5">
                     <div class="singl-teams rounded-3 h-100">
                         <div class="team-img">
                             <img class="team-img w-100 h-100 rounded-3" src="images/IMG_3518.jpg" alt="image">
@@ -263,7 +272,7 @@
                             <div class="travel-div w-100 rounded-3">
                                 <p class="text-center text-dark fw-bold">綠島之旅</p>
                             </div>
-                            <p class="text-center">三天兩夜，第一天下大雨不能搭船，所以在台東玩了一天，隔天才去綠島玩。</p>
+                            <p class="text-center">三天兩夜，第一天下大雨不能搭船，所以隔天才去綠島玩。</p>
                             <div class="batton text-center ">
                                 <a href="#" class="btn btn-outline-secondary">green island</a>
                             </div>
@@ -271,7 +280,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-3 ">
+                <div class="col-sm-6 col-md-6 col-lg-3 pb-5">
                     <div class="singl-teams rounded-3 h-100">
                         <div class="team-img">
                             <img class="team-img w-100 h-100 rounded-3" src="images/IMG_3519.jpg" alt="image">
@@ -287,7 +296,7 @@
                         </div>
                     </div>
                 </div>                   
-                <div class="col-md-6 col-lg-3">
+                <div class="col-sm-6 col-md-6 col-lg-3 pb-5">
                     <div class="singl-teams rounded-3 h-100 ">
                         <div class="team-img">
                             <img class="team-img w-100 h-100 rounded-3" src="images/IMG_3520.jpg" alt="image">
@@ -296,7 +305,7 @@
                             <div class="travel-div w-100 rounded-3">
                                 <p class="text-center text-dark fw-bold">台南之旅</p>
                             </div>
-                            <p class="text-center">三天兩夜，第二天也下雨，整整吃了三天，暑假吃最多的三天。</p>
+                            <p class="text-center">三天兩夜，第二天也下雨，暑假吃最多的三天。</p>
                             <div class="batton text-center ">
                                 <a href="#" class="btn btn-outline-secondary ">Tainan</a>
                             </div>
