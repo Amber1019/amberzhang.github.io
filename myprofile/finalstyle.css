@@ -55,9 +55,6 @@ section.resume-section .resume-section-content {
     background-attachment: scroll;
   }
   .resume-section-text {
-    font-size: 5rem;
-  }
-  .resume-section-text {
     padding-top: 60%;
   }
 }
@@ -78,7 +75,7 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
   .resume-section-text {
-    font-size: 40px;
+    font-size: 35px;
   }
   p.lead {
     font-size: 12px;
@@ -86,7 +83,7 @@ section.resume-section .resume-section-content {
   }
   .subheading {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
   }
 
 }
@@ -222,7 +219,21 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 1368px) {
   #sideNav {
-    width: 18rem;
+    width: 20rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 27rem;
+  }
+  .navbar-nav {
+    font-size: 18px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  #sideNav {
+    width: 20rem;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 12rem;
