@@ -45,7 +45,7 @@ section.resume-section .resume-section-content {
 
 
 
-@media (max-width: 475px) {
+/* @media (max-width: 475px) {
   section.resume-section {
     min-height: 100vh;
     background-image: url(images/IMG_4472.jpg);
@@ -57,9 +57,9 @@ section.resume-section .resume-section-content {
   .resume-section-text {
     padding-top: 70%;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   section.resume-section {
     min-height: 100vh;
     background-image: url(images/IMG_4472.jpg);
@@ -69,7 +69,7 @@ section.resume-section .resume-section-content {
     background-attachment: scroll;
   }
     
-}
+} */
 @media (max-width: 474px) {
   section.resume-section {
     min-height: 100vh;
@@ -231,6 +231,7 @@ section.resume-section .resume-section-content {
   .navbar-nav {
     font-size: 17px;
   }
+  
 }
 
 @media (min-width: 1368px) {
@@ -301,7 +302,7 @@ section.resume-section .resume-section-content {
   right: 0;
   margin: 0 auto;
   transform: translateY(-50%);
-  background:  #f3e4db;
+  background:  #ebe9e9;
 }
 .travel-content p {
   margin: unset;
@@ -373,7 +374,7 @@ h1::after {
 }
 .profile {
   padding: 10px 10px;
-  background-color: #f3e4db;
+  background-color: #ebe9e9;
   border-radius:5%
 }
 .profile img {
@@ -413,15 +414,17 @@ blockquote::after {
 
 .slide-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/phpmRp0rx.jpg);
-  border-radius:5%
+  border-radius:5%;
+  background-position:100% 70%; 
 }
 .slide-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/626a69f508fa0946257956.jpg);
-  border-radius:5%
+  border-radius:5%;
+  background-position:100% 80%; 
 }
 .bg-cover {
-  background-position: center; 
-  background-size: cover; 
+  /* background-position: center;  */
+  background-size: cover ; 
   background-repeat: no-repeat; 
 }
 
@@ -515,5 +518,8 @@ blockquote::after {
   color: #3a1d1a;
   padding-bottom: 10px;
 }
+
+
+
 
 
